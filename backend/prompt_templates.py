@@ -39,6 +39,8 @@ Resume Text: {resume_text}
 
       Maintain a friendly, professional, and confident tone.
 
+      Always sign the message with "Best regards, Precious Nyaupane" at the end.
+
       Role: {role}
       Company: {company}
       JD Summary: "{jd_summary}"
@@ -63,7 +65,7 @@ My Resume Text: {resume_text}
 Extra Context: {extra_context}
 """,
 # Cover Letter
-    "cover_letter": """Write a concise cover letter (<=300 words) for a {role} role at {company}. The letter should use this JD summary: "{jd_summary}", my matching skills: "{matches}", and my extra context: "{extra_context}". Start by mentioning the role in the first sentence. Use concrete examples and a natural tone. Return in plain text.""",
+    "cover_letter": """Write a concise cover letter (<=300 words) for a {role} role at {company}. The letter should use this JD summary: "{jd_summary}", my matching skills: "{matches}", and my extra context: "{extra_context}". Start by mentioning the role in the first sentence. Use concrete examples and a natural tone. Always end with "Sincerely, Precious Nyaupane". Return in plain text.""",
 
     "fraud_detection": """You are a fraud detection expert. Analyze the following job posting for common red flags, such as generic descriptions, requests for personal financial information, or promises of unrealistic pay for that role. 
     
