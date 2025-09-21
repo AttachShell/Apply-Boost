@@ -138,6 +138,5 @@ class ApiService {
       body: JSON.stringify({ jdText }),
     });
   }
-}
 
 export const apiService = new ApiService();
