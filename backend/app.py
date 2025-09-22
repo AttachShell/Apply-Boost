@@ -33,7 +33,7 @@ litellm.api_key = gemini_api_key
 
 # Initialize Supermemory client
 supermemory_client = Supermemory(
-    api_key="sm_e6JuGZgu9Asv5B2CwxhC3E_eEJTsmIeJAXUQBAvFYtQuJWzCNUmLXnUkXwJnzjAZYOTsAgHrKyyENeoruLjJtny"
+    api_key=os.getenv("SUPERMEMORY_API_KEY")
 )
 
 # =================================================================
